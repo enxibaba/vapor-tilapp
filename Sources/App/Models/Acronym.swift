@@ -13,12 +13,13 @@ final class Acronym: Codable {
 }
 
 extension Acronym: PostgreSQLModel {
-    typealias Database = PostgreSQLDatabase
-    typealias ID = Int
-    public static var idKey: IDKey = \Acronym.id
+//    typealias Database = PostgreSQLDatabase
+//    typealias ID = Int
+//    public static var idKey: IDKey = \Acronym.id
 }
 
 extension Acronym: Migration {}
 
 extension Acronym: Content {}
+
 
