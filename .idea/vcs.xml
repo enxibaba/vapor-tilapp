@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/console.git--2431895819212044213" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/core.git-9210800844849382486" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/crypto.git-7980259129511365902" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/database-kit.git--3872818599693266265" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/fluent-postgresql.git-4102665397048071377" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/fluent.git-6251908308727715749" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/http.git-9159899851620770205" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/multipart.git-4210556629793786970" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/postgresql.git-5650722971996441103" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/routing.git-5366657101075133678" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/service.git--3029908809087319447" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/sql.git-2678105727451989607" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/swift-nio-ssl-support.git--2359138821295600615" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/swift-nio-ssl.git-1370587408992578247" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/swift-nio-zlib-support.git--1071467962839356487" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/swift-nio.git-3108475404973543938" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/template-kit.git--6129928586187134836" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/url-encoded-form.git--8133570518800567758" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/validation.git--4403154650041669468" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/vapor.git-5492988889259800272" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/websocket.git-995660844808513665" vcs="Git" />
+  </component>
+</project>
