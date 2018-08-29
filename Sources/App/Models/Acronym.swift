@@ -6,6 +6,11 @@ final class Acronym: Codable {
     var short: String
     var long: String
     var userID: User.ID
+    var categories: Siblings<Acronym,
+                             Category,
+                             AcronymCategoryPivot> {
+        return siblings()
+    }
     init(short: String, long: String, userID: User.ID) {
         self.short = short
         self.long = long
