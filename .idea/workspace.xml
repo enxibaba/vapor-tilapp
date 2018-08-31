@@ -4,6 +4,8 @@
     <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Models/Acronym.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Models/Acronym.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/App/configure.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/configure.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/App/routes.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/routes.swift" afterDir="false" />
     </list>
@@ -19,7 +21,7 @@
     <session id="-1409944867">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="3" />
@@ -87,7 +89,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="206" />
     <option name="y" value="25" />
     <option name="width" value="1440" />
@@ -130,16 +132,15 @@
       <updated>1535202535486</updated>
       <workItem from="1535202539883" duration="427000" />
       <workItem from="1535293894410" duration="1305000" />
-      <workItem from="1535381237943" duration="2383000" />
+      <workItem from="1535381237943" duration="2665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4115000" />
+    <option name="totallyTimeSpent" value="4397000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="25" width="1440" height="877" extended-state="1" />
-    <editor active="true" />
+    <frame x="206" y="25" width="1440" height="877" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25470334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
