@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/Models/Acronym.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Models/Acronym.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/configure.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/configure.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/routes.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/routes.swift" afterDir="false" />
-    </list>
+    <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/TILApp-fvsqoijnwhwkxsefizmmgrqzrrxj/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +14,11 @@
     <session id="-1409944867">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -89,7 +83,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="206" />
     <option name="y" value="25" />
     <option name="width" value="1440" />
@@ -133,20 +127,21 @@
       <workItem from="1535202539883" duration="427000" />
       <workItem from="1535293894410" duration="1305000" />
       <workItem from="1535381237943" duration="2665000" />
+      <workItem from="1535699466389" duration="5000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4397000" />
+    <option name="totallyTimeSpent" value="4402000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="206" y="25" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25470334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -158,6 +153,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292978" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -173,21 +169,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Sources/App/Models/User.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/App/Models/Acronym.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -205,9 +192,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -215,9 +199,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

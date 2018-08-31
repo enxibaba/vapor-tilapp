@@ -9,6 +9,7 @@
     <mapping directory="$PROJECT_DIR$/.build/checkouts/fluent-postgresql.git-4102665397048071377" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/fluent.git-6251908308727715749" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/http.git-9159899851620770205" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/leaf.git-9164445114487378533" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/multipart.git-4210556629793786970" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/postgresql.git-5650722971996441103" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/routing.git-5366657101075133678" vcs="Git" />

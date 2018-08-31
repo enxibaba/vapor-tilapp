@@ -23,7 +23,7 @@ struct WebsiteController: RouteCollection {
                         let acronymsData = acronyms.isEmpty ? nil : acronyms
                         let context = IndexContext(title: "Homepage",
                                                    acronyms: acronymsData)
-                        return try req.view().render("index",context)
+                        return try req.view().render("index", context)
         }
     }
     
