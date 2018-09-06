@@ -55,7 +55,7 @@ struct AcronymsController: RouteCollection {
             throw Abort(.badRequest)
         }
 
-        return try Acronym.query(on: req)
+        return Acronym.query(on: req)
             .filter(\.short == searchTerm)
             .filter(\.long == searchTerm)
             .all()
@@ -73,7 +73,7 @@ struct AcronymsController: RouteCollection {
     }
 
     func sortedHandler(_ req: Request) throws -> Future<[Acronym]> {
-        return try Acronym.query(on: req)
+        return Acronym.query(on: req)
             .sort(\.short, .ascending)
             .all()
     }
@@ -81,7 +81,7 @@ struct AcronymsController: RouteCollection {
     func getUserHandler(_ req: Request) throws -> Future<User> {
         return try req.parameters.next(Acronym.self)
             .flatMap(to: User.self) { acronym in
-                try acronym.user.get(on: req)
+                 acronym.user.get(on: req)
         }
     }
 
@@ -90,8 +90,8 @@ struct AcronymsController: RouteCollection {
                            req.parameters.next(Acronym.self),
                            req.parameters.next(Category.self)) { acronym, category in
                             
-                            let pivot = try AcronymCategoryPivot(acronym.requireID(),
-                                                                category.requireID())
+                            let pivot = try AcronymCategoryPivot(acronym,
+                                                                category)
                             return pivot.save(on: req)
                                         .transform(to: .created)
         }

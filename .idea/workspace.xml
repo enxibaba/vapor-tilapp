@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="" />
+    <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Views/acronym.leaf" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Views/acronym.leaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Views/base.leaf" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Views/base.leaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Models/Category.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Models/Category.swift" afterDir="false" />
+    </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/TILApp-fvsqoijnwhwkxsefizmmgrqzrrxj/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,31 +21,33 @@
     <session id="-1409944867">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="swift" value="871" />
+          <entry key="swift" value="879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Swift" value="871" />
+          <entry key="Swift" value="879" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="swift" value="9" />
+          <entry key="leaf" value="1" />
+          <entry key="swift" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Swift" value="9" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Swift" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.build">
@@ -51,10 +60,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/App/routes.swift">
+        <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="440">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -74,6 +83,7 @@
         <option value="$PROJECT_DIR$/Sources/App/configure.swift" />
         <option value="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" />
         <option value="$PROJECT_DIR$/Sources/App/routes.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" />
       </list>
     </option>
   </component>
@@ -83,9 +93,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="206" />
-    <option name="y" value="25" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="151" />
+    <option name="y" value="37" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -128,14 +138,15 @@
       <workItem from="1535293894410" duration="1305000" />
       <workItem from="1535381237943" duration="2665000" />
       <workItem from="1535699466389" duration="5000" />
+      <workItem from="1535803597004" duration="396000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4402000" />
+    <option name="totallyTimeSpent" value="4798000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="206" y="25" width="1440" height="877" extended-state="0" />
+    <frame x="151" y="37" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25470334" />
@@ -211,8 +222,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/App/routes.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Views/user.leaf">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>

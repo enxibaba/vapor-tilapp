@@ -6,11 +6,7 @@ final class Acronym: Codable {
     var short: String
     var long: String
     var userID: User.ID
-    var categories: Siblings<Acronym,
-                             Category,
-                             AcronymCategoryPivot> {
-        return siblings()
-    }
+    
     init(short: String, long: String, userID: User.ID) {
         self.short = short
         self.long = long
@@ -18,10 +14,20 @@ final class Acronym: Codable {
     }
 }
 
-extension Acronym: PostgreSQLModel {
-//    typealias Database = PostgreSQLDatabase
-//    typealias ID = Int
-//    public static var idKey: IDKey = \Acronym.id
+extension Acronym: PostgreSQLModel {}
+extension Acronym: Content {}
+extension Acronym: Parameter {}
+
+
+extension Acronym {
+    var user: Parent<Acronym, User> {
+        return parent(\.userID)
+    }
+    var categories: Siblings<Acronym,
+        Category,
+        AcronymCategoryPivot> {
+        return siblings()
+    }
 }
 
 extension Acronym: Migration {
@@ -33,13 +39,7 @@ extension Acronym: Migration {
     }
 }
 
-extension Acronym: Content {}
 
-extension Acronym: Parameter {}
 
-extension Acronym {
-    var user: Parent<Acronym, User> {
-        return parent(\.userID)
-    }
-}
+
 

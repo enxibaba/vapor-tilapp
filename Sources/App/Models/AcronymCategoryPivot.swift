@@ -1,8 +1,8 @@
 import FluentPostgreSQL
 import Foundation
 
-final class AcronymCategoryPivot: PostgreSQLUUIDPivot {
-    
+final class AcronymCategoryPivot: PostgreSQLUUIDPivot, ModifiablePivot {
+   
     var id: UUID?
     
     var acronymID: Acronym.ID
@@ -14,9 +14,9 @@ final class AcronymCategoryPivot: PostgreSQLUUIDPivot {
     static let leftIDKey: LeftIDKey = \.acronymID
     static let rightIDKey: RightIDKey = \.categoryID
     
-    init(_ acronymID: Acronym.ID, _ categoryID: Category.ID) {
-        self.acronymID = acronymID
-        self.categoryID = categoryID
+    init(_ acronym: Acronym, _ category: Category) throws {
+        self.acronymID = try acronym.requireID()
+        self.categoryID = try category.requireID()
     }
     
 }
@@ -31,11 +31,10 @@ extension AcronymCategoryPivot: Migration {
             try addProperties(to: builder)
             // Add a reference between the acronymID property on AcronymCategoryPivot and the
             // id property on Acronym. This sets up the foreign key constraint
-            try builder.reference(from: \.acronymID, to: \Acronym.id)
+            builder.reference(from: \.acronymID, to: \Acronym.id, onDelete: .cascade)
             // Add a reference between the categroyID property on AcronymCategoryPivot and the
             // id property on Category. This sets up the foreign key constraint
-            try builder.reference(from: \.categoryID,
-                to: \Category.id)
+            builder.reference(from: \.categoryID, to: \Category.id, onDelete: .cascade)
         }
     }
 }
