@@ -3,11 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="c9367c19-bd7f-45ed-b295-0cc53ccee3c1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/TILApp_Package.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Views/acronym.leaf" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Views/acronym.leaf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Views/base.leaf" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Views/base.leaf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package.resolved" beforeDir="false" afterPath="$PROJECT_DIR$/Package.resolved" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Package.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Package.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sources/App/Models/Category.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Models/Category.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Controllers/UsersController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Controllers/UsersController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/Models/User.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/Models/User.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sources/App/configure.swift" beforeDir="false" afterPath="$PROJECT_DIR$/Sources/App/configure.swift" afterDir="false" />
     </list>
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/TILApp-fvsqoijnwhwkxsefizmmgrqzrrxj/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,36 +27,36 @@
         <counts>
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.6" value="3" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="swift" value="879" />
+          <entry key="swift" value="6517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Swift" value="879" />
+          <entry key="Swift" value="6517" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="leaf" value="1" />
-          <entry key="swift" value="10" />
+          <entry key="swift" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Swift" value="10" />
+          <entry key="Swift" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.build">
         <counts>
-          <entry key="buildservice" value="2" />
+          <entry key="buildservice" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -60,18 +64,23 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift">
+        <entry file="file://$PROJECT_DIR$/Tests/AppTests/UserTests.swift">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+            <state relative-caret-position="596">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
               <folding>
-                <element signature="e#0#12#0" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>remove</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,10 +89,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Sources/App/Models/Category.swift" />
-        <option value="$PROJECT_DIR$/Sources/App/configure.swift" />
-        <option value="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" />
         <option value="$PROJECT_DIR$/Sources/App/routes.swift" />
         <option value="$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift" />
+        <option value="$PROJECT_DIR$/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Basic/BasicAuthenticationMiddleware.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Models/Token.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Controllers/UsersController.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/Models/User.swift" />
+        <option value="$PROJECT_DIR$/Sources/App/configure.swift" />
       </list>
     </option>
   </component>
@@ -94,8 +108,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="151" />
-    <option name="y" value="37" />
+    <option name="x" value="28" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -124,6 +138,20 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Application.TILApp-Package">
+    <configuration name="Run" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="TILApp" TARGET_NAME="Run" CONFIG_NAME="Debug" SCHEME_NAME="Run" IS_LOCATION_SIMULATION_ALLOWED="true" RUN_TARGET_PROJECT_NAME="TILApp" RUN_TARGET_NAME="Run" MAKE_ACTIVE="TRUE">
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TILApp-Package" />
+      <item itemvalue="Application.Run" />
+    </list>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -139,14 +167,15 @@
       <workItem from="1535381237943" duration="2665000" />
       <workItem from="1535699466389" duration="5000" />
       <workItem from="1535803597004" duration="396000" />
+      <workItem from="1536632249022" duration="11595000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4798000" />
+    <option name="totallyTimeSpent" value="16393000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="151" y="37" width="1440" height="877" extended-state="0" />
+    <frame x="102" y="23" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25470334" />
@@ -179,9 +208,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Sources/App/Models/User.swift">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/App/Models/Acronym.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -192,31 +218,10 @@
     <entry file="file://$PROJECT_DIR$/.build/checkouts/vapor.git-5492988889259800272/Sources/Development/Controllers/UserController.swift">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/UsersController.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Sources/App/Models/Category.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/App/configure.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="32" column="27" lean-forward="true" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="38" lean-forward="true" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -235,10 +240,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/WebsiteController.swift">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+        <state relative-caret-position="198">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.build/checkouts/auth.git-9199502942084726963/Sources/Authentication/Basic/BasicAuthenticationMiddleware.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.build/checkouts/vapor.git-5492988889259800272/Sources/Vapor/Routing/RouteCollection.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Models/Token.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/AcronymsController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/CategoriesController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Controllers/UsersController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/Models/User.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="93" column="25" lean-forward="true" selection-start-line="93" selection-start-column="25" selection-end-line="93" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#17#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Sources/App/configure.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="46" column="27" lean-forward="true" selection-start-line="46" selection-start-column="27" selection-end-line="46" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/AppTests/UserTests.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="596">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>

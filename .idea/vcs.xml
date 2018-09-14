@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.build/checkouts/auth.git-9199502942084726963" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/console.git--2431895819212044213" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/core.git-9210800844849382486" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/.build/checkouts/crypto.git-7980259129511365902" vcs="Git" />
