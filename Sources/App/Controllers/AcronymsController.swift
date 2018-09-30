@@ -72,7 +72,7 @@ struct AcronymsController: RouteCollection {
                             //Get the authenticated user from the request and use
                             //that to update the acronym
                             let user = try req.requireAuthenticated(User.self)
-                            acronym.userID = user.requireID()
+                            acronym.userID = try user.requireID()
                             return acronym.save(on: req)
         }
     }
